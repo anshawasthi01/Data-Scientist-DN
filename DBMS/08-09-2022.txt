@@ -6,7 +6,6 @@
 
 --select * from course where course_name like 'M_L'
 
---
 --select * from course where course_faculty like 'a[a-z]h'
 --select * from course union select * from course where course_name like 'a[a-z]h'
 --select * from course union all select * from course where course_name like 'a[a-z]h'
