@@ -1,0 +1,12 @@
+--update course set course_faculty = 'khusboo'
+--update course set course_faculty = 'rohan' where course_id = '2' or course_id = '4'
+--select course_faculty,min(course_credit) from course group by course_faculty
+--select course_faculty,min(course_credit) as min_credit from course group by course_faculty order by min(course_credit)
+--select course_faculty,count(course_credit) as min_credit from course group by course_faculty order by count(course_credit)
+
+--select * from course where course_name like 'M_L'
+
+--
+--select * from course where course_faculty like 'a[a-z]h'
+--select * from course union select * from course where course_name like 'a[a-z]h'
+--select * from course union all select * from course where course_name like 'a[a-z]h'
