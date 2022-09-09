@@ -2,7 +2,8 @@
 --use ds;
 --create table course(course_id int, course_name varchar(20), course_faculty varchar(20), course_Credit int);
 --insert into course(course_id, course_name, course_faculty, course_credit) values (6, 'ML', 'ansh', 2);
---select * from course;
+--
+select * from course;
 --select course_id, course_name from course;
 --delete from course;
 
@@ -28,7 +29,10 @@
 
 
 
---DAY 2
+
+--DBMS Day-2
+
+
 
 
 --update course set course_faculty = 'khusboo'
@@ -41,13 +45,13 @@
 
 --select * from course where course_faculty like 'a[a-z]h'
 --select * from course union select * from course where course_name like 'a[a-z]h'
-
 --select * from course union all select * from course where course_name like 'a[a-z]h'
 
 
 
-
 --DAY - 3
+
+
 
 --alter table course alter column course_name char(50);
 --alter table course add Data int
