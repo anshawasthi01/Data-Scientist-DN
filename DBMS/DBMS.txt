@@ -1,0 +1,20 @@
+--DAY - 3
+
+--alter table course alter column course_name char(50);
+--alter table course add Data int
+--alter table course drop column Data
+--select course_faculty, count(course_id) as countdata from course group by course_faculty having count(course_id)>1
+--create table course1(id int, name char(20),faculty varchar(20), credit int);
+--insert into course1(id, name, faculty, credit) values (2, 'sal', 'avdhi',4 );
+--select *from course1
+
+--JOINS--
+
+--select* from course left join course1 on course.course_id = course1.id;
+--select* from course right join course1 on course.course_id = course1.id;
+--select* from course full join course1 on course.course_id = course1.id;
+
+--select course_name, case when course_credit >=3 then 'very important' when course_Credit =2 then 'important' else 'easy' end as importance_level from course
+
+--Nested Query--
+--select * from course where course_id in(select id from course1)
