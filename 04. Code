@@ -1,0 +1,14 @@
+import pickle
+
+with open('model_pickle','wb')as f:# w = write mode and b = binary files
+    pickle.dump(cnn, f)
+
+
+# load saved model
+with open('model_pickle','rb') as f:
+    mp = pickle.load(f)
+
+
+mp.predict(x_test)
+
+y_pred
